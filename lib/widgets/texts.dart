@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:adventure_care/widgets/colors.dart';
+import 'package:adventure_care/colors.dart';
 
 const palette = ColorPalette;
 

@@ -1,5 +1,5 @@
 import 'package:adventure_care/controllers/otp_controller.dart';
-import 'package:adventure_care/widgets/colors.dart';
+import 'package:adventure_care/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
@@ -43,7 +43,7 @@ class PinField extends StatelessWidget {
         otpController.changePin(value);
       },
       beforeTextPaste: (text) {
-        print("Allowing to paste $text");
+        // print("Allowing to paste $text");
         //if you return true then it will show the paste confirmation dialog. Otherwise if false, then nothing will happen.
         //but you can show anything you want here, like your pop up saying wrong paste format or etc
         return true;
