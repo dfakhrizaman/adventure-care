@@ -64,7 +64,7 @@ class HomePage extends StatelessWidget {
                         onPressed: () {
                           Get.to(() => ShopPage());
                         },
-                        icon: Icon(Icons.shopping_cart_rounded)),
+                        icon: const Icon(Icons.shopping_cart_rounded)),
                   ),
                   // Stack for Character
                   Stack(
