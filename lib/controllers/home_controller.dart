@@ -29,4 +29,13 @@ class HomeController extends GetxController {
   int getHairIndex() {
     return hairIndex.value;
   }
+  //* END Outfit Controllers
+
+  //* Page Controller
+  var tabIndex = 0;
+
+  void changeTabIndex(int index) {
+    tabIndex = index;
+    update();
+  }
 }
