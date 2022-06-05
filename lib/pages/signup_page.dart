@@ -1,7 +1,7 @@
 import 'package:adventure_care/controllers/signup_controller.dart';
 import 'package:adventure_care/pages/home_page.dart';
 import 'package:adventure_care/widgets/buttons.dart';
-import 'package:adventure_care/widgets/colors.dart';
+import 'package:adventure_care/colors.dart';
 import 'package:adventure_care/widgets/texts.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
