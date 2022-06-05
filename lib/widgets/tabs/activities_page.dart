@@ -1,7 +1,7 @@
 import 'package:adventure_care/widgets/task_tile.dart';
 import 'package:adventure_care/widgets/texts.dart';
 import 'package:flutter/material.dart';
-import 'package:sizer/sizer.dart';
+// import 'package:sizer/sizer.dart';
 
 List<String> tasks = [
   'Makan nasi',
@@ -19,17 +19,14 @@ class ActivitiesPage extends StatelessWidget {
     return Center(
       child: Column(
         children: [
-          Padding(
-            padding: EdgeInsets.symmetric(horizontal: 5.w),
-            child: Column(
-              children: [
-                const HeaderText1(content: 'Kegiatan Hari Ini'),
-                ListView(
-                  shrinkWrap: true,
-                  children: tasks.map((item) => TaskTile(title: item)).toList(),
-                )
-              ],
-            ),
+          Column(
+            children: [
+              const HeaderText1(content: 'Kegiatan Hari Ini'),
+              ListView(
+                shrinkWrap: true,
+                children: tasks.map((item) => TaskTile(title: item)).toList(),
+              )
+            ],
           ),
         ],
       ),

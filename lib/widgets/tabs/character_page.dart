@@ -22,7 +22,7 @@ class CharacterPage extends StatelessWidget {
           ],
         ),
         Padding(
-          padding: EdgeInsets.symmetric(horizontal: 10.w),
+          padding: EdgeInsets.symmetric(horizontal: 5.w),
           child: Column(
             children: const [
               HeaderText1(content: 'Andhika'),
